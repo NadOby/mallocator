@@ -1,0 +1,8 @@
+version "0.0.1"
+package "malloc"
+purpose "Allocate memory up to some number"
+
+# Options
+option "units" u "Units might be K, M or G stands to Kb, Mb or Gb rspectively" string values="K", "M", "G" default="M" optional
+option "mem" m "Memory to allocate" int default="0" optional
+option "percentage" p "Percentage of memory to fill" int  default="0" optional
