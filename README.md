@@ -2,10 +2,13 @@
 
 Basic tool to allocate memory on Linux to fill it up for testing purposes
 
-## Build dependency 
+## Build dependency
 gengetopts
 
-## Build
+## Building
 ```
-cmake .
+mkdir build
+cd build
+cmake ../
+make
 ```
